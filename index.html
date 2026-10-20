@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#167447">
+<title>আমরা আমরাই | কাটাখিলা–আলামপুর রক্তদাতা পরিবার</title>
+<style>
+:root{--green:#167447;--green2:#0e5935;--red:#d62828;--red2:#ad171f;--white:#fff;--ink:#172a22;--muted:#69766f;--pale:#f1faf4;--line:#d8eadf;--gold:#ffe7a1}
+*{box-sizing:border-box}body{margin:0;background:#f5faf6;color:var(--ink);font-family:"Noto Sans Bengali","Hind Siliguri","SolaimanLipi",system-ui,sans-serif}button,input,select{font:inherit}button{cursor:pointer;border:0}
+.hero{background:linear-gradient(135deg,var(--green2),var(--green) 55%,#23945b);color:white;padding:26px 16px 24px;text-align:center;position:relative;overflow:hidden}.hero:before,.hero:after{content:"";position:absolute;border:1px solid #ffffff22;border-radius:50%;width:260px;height:260px;top:-150px;left:-80px}.hero:after{top:auto;left:auto;bottom:-200px;right:-60px;width:330px;height:330px}
+.wrap{max-width:1000px;margin:auto;position:relative;z-index:1}.logo{width:76px;height:76px;background:white;border-radius:50%;display:grid;place-items:center;margin:0 auto 10px;box-shadow:0 6px 20px #0002}.logo span{font-size:42px}.hero h1{font-size:clamp(28px,6vw,43px);margin:4px 0 5px;font-weight:900;letter-spacing:.2px}.tagline{font-size:clamp(17px,3.7vw,23px);font-weight:800;margin:8px auto 18px}.tagline em{font-style:normal;color:#ffe6a5}.subtitle{opacity:.9;margin:0 0 18px;font-size:14px}.stats{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.stat{background:#ffffff18;border:1px solid #ffffff4d;border-radius:14px;padding:10px 16px;min-width:115px}.stat b{display:block;font-size:22px}.stat small{opacity:.9}
+main{max-width:1000px;margin:auto;padding:18px 14px 40px}.tabs{display:flex;gap:8px;margin:0 0 14px}.tab{flex:1;padding:12px 8px;border:1px solid var(--line);background:white;color:var(--green2);border-radius:13px;font-weight:800}.tab.active{background:var(--red);color:white;border-color:var(--red)}.panel{background:white;border:1px solid var(--line);border-radius:18px;padding:16px;margin-bottom:16px;box-shadow:0 5px 20px #133b2010}.section-title{font-size:20px;font-weight:900;margin:0 0 12px;display:flex;align-items:center;gap:8px}.filters{display:grid;grid-template-columns:1fr 1fr;gap:10px}.filters input,.filters select,.field input,.field select{width:100%;min-width:0;padding:13px 12px;border:1.5px solid #d4e6da;border-radius:12px;background:#fbfdfb;color:var(--ink);outline-color:var(--green)}.filters .search{grid-column:1/-1}.list-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:18px 2px 10px}.list-head h2{font-size:20px;margin:0}.tiny{color:var(--muted);font-size:13px}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.donor{background:white;border:1px solid #e1eee5;border-left:5px solid var(--green);border-radius:16px;padding:14px;display:flex;gap:12px;align-items:center;box-shadow:0 4px 14px #123a2010;min-width:0}.avatar{width:54px;height:54px;flex:0 0 54px;border-radius:50%;display:grid;place-items:center;background:#e5f5e9;color:var(--green2);font-weight:900;font-size:22px}.details{min-width:0;flex:1}.name{font-size:17px;font-weight:900;overflow-wrap:anywhere}.meta{color:var(--muted);font-size:13px;margin-top:4px;overflow-wrap:anywhere}.badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.blood{background:var(--red);color:white;padding:4px 10px;border-radius:30px;font-size:13px;font-weight:900}.village{background:#e5f5e9;color:var(--green2);padding:4px 9px;border-radius:30px;font-size:12px;font-weight:800}.actions{display:flex;flex-direction:column;gap:6px}.call{background:#16834a;color:white;padding:10px 12px;border-radius:11px;font-weight:900;white-space:nowrap;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:5px}.delete{background:#fff0f0;color:#b51f2a;padding:7px 10px;border-radius:9px;font-size:12px}.empty{padding:28px;text-align:center;color:var(--muted);background:white;border:1px dashed #b9d6c3;border-radius:16px;grid-column:1/-1}.primary{background:linear-gradient(120deg,var(--red),var(--red2));color:white;padding:13px 18px;border-radius:12px;font-weight:900;width:100%;box-shadow:0 5px 12px #d6282822}.secondary{background:#eef5f0;color:var(--green2);padding:11px 15px;border-radius:11px;font-weight:800}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.field label{display:block;font-weight:800;margin:0 0 6px}.field.full{grid-column:1/-1}.notice{background:#fff8e7;border:1px solid #f2dfa6;padding:11px 13px;border-radius:12px;font-size:13px;color:#6e5614;line-height:1.6;margin:12px 0}.hidden{display:none!important}.adminrow{display:flex;gap:8px;flex-wrap:wrap}.footer{text-align:center;color:#607168;font-size:13px;padding:22px 12px}.footer b{color:var(--green2)}.modal{position:fixed;inset:0;background:#10251bc9;z-index:5;display:grid;place-items:center;padding:14px;overflow:auto}.modalbox{width:min(600px,100%);max-height:94vh;overflow:auto;background:white;border-radius:20px;padding:20px;box-shadow:0 20px 60px #0004}.modalhead{display:flex;justify-content:space-between;align-items:center;gap:10px}.close{background:#eef5f0;border-radius:50%;width:38px;height:38px;font-size:22px}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#173d29;color:white;padding:12px 18px;border-radius:12px;box-shadow:0 5px 20px #0003;z-index:9;max-width:90vw;text-align:center}
+@media(max-width:650px){.cards{grid-template-columns:1fr}.filters{grid-template-columns:1fr 1fr}.donor{padding:12px;gap:9px}.avatar{width:46px;height:46px;flex-basis:46px}.name{font-size:16px}.call{padding:9px 10px}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.hero{padding-top:22px}.tabs{position:sticky;top:0;z-index:3;background:#f5faf6;padding:5px 0}.tab{font-size:14px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="logo"><span>🩸</span></div>
+  <h1>আমরা আমরাই</h1>
+  <p class="tagline">আমরা আমরাই তো, <em>রক্ত লাগলে বলবি তো।</em></p>
+  <p class="subtitle">কাটাখিলা ও আলামপুর গ্রামের স্বেচ্ছায় রক্তদাতা পরিবার</p>
+  <div class="stats">
+    <div class="stat"><b id="totalCount">0</b><small>মোট রক্তদাতা</small></div>
+    <div class="stat"><b id="groupCount">0</b><small>রক্তের গ্রুপ</small></div>
+    <div class="stat"><b>২</b><small>গ্রাম</small></div>
+  </div>
+</div></header>
+<main>
+  <div class="tabs">
+    <button class="tab active" id="showList">🩸 রক্তদাতা খুঁজুন</button>
+    <button class="tab" id="showAdd">➕ রক্তদাতা যোগ করুন</button>
+  </div>
+  <section id="listView">
+    <div class="panel">
+      <h2 class="section-title">🔎 রক্তদাতা খুঁজুন</h2>
+      <div class="filters">
+        <input class="search" id="search" placeholder="নাম বা মোবাইল নম্বর দিয়ে খুঁজুন…" aria-label="নাম বা মোবাইল নম্বর দিয়ে খুঁজুন">
+        <select id="bloodFilter" aria-label="রক্তের গ্রুপ"><option value="">সব রক্তের গ্রুপ</option><option>A+</option><option>A-</option><option>B+</option><option>B-</option><option>AB+</option><option>AB-</option><option>O+</option><option>O-</option></select>
+        <select id="villageFilter" aria-label="গ্রাম"><option value="">দুই গ্রামই</option><option>কাটাখিলা</option><option>আলামপুর</option></select>
+      </div>
+    </div>
+    <div class="list-head"><h2>🩸 রক্তদাতার তালিকা</h2><span class="tiny" id="shownCount">0 জন</span></div>
+    <div id="donorCards" class="cards"></div>
+    <div class="notice">🔒 রক্তদাতার নম্বর যোগ করার আগে তাঁর অনুমতি নিন। কল বাটন ফোনে কল করার অ্যাপ খুলবে।</div>
+  </section>
+  <section id="addView" class="panel hidden">
+    <h2 class="section-title">🩸 নতুন রক্তদাতা যুক্ত করুন</h2>
+    <p class="tiny">নিজের ইচ্ছায় নাম নিবন্ধন করুন। প্রকাশিত তালিকা থেকে সাধারণ ব্যবহারকারীরা তথ্য মুছতে পারবেন না।</p>
+    <form id="donorForm">
+      <div class="formgrid">
+        <div class="field full"><label for="donorName">আপনার নাম *</label><input id="donorName" required maxlength="70" placeholder="সম্পূর্ণ নাম"></div>
+        <div class="field"><label for="donorBlood">রক্তের গ্রুপ *</label><select id="donorBlood" required><option value="">বেছে নিন</option><option>A+</option><option>A-</option><option>B+</option><option>B-</option><option>AB+</option><option>AB-</option><option>O+</option><option>O-</option></select></div>
+        <div class="field"><label for="donorVillage">গ্রাম *</label><select id="donorVillage" required><option value="">বেছে নিন</option><option>কাটাখিলা</option><option>আলামপুর</option></select></div>
+        <div class="field full"><label for="donorPhone">মোবাইল নম্বর *</label><input id="donorPhone" required inputmode="tel" maxlength="16" placeholder="01XXXXXXXXX"></div>
+      </div>
+      <div class="notice">আপনার নাম, রক্তের গ্রুপ, গ্রাম ও মোবাইল নম্বর এই ব্রাউজারের সংরক্ষিত তালিকায় যোগ হবে। এই ফাইল একা ব্যবহার করলে তথ্য অন্য মানুষের ফোনে নিজে থেকে পৌঁছাবে না।</div>
+      <button class="primary" type="submit">রক্তদাতার তালিকায় যুক্ত করুন</button>
+    </form>
+  </section>
+  <section class="panel">
+    <h2 class="section-title">ℹ️ আমাদের সম্পর্কে</h2>
+    <p style="line-height:1.8;margin:0">“আমরা আমরাই” কাটাখিলা ও আলামপুর গ্রামের স্বেচ্ছায় রক্তদাতাদের একত্র করার একটি উদ্যোগ। জরুরি সময়ে রক্তদাতা খুঁজে পেতে এই তালিকা সাহায্য করবে। রক্ত দেওয়ার আগে নিজের স্বাস্থ্য ও চিকিৎসকের পরামর্শ বিবেচনা করুন।</p>
+  </section>
+</main>
+<footer class="footer"><b>আমরা আমরাই</b> · কাটাখিলা ❤️ আলামপুর<br>রক্তদানে পাশে থাকি, জীবন বাঁচাতে এগিয়ে আসি।</footer>
+<div id="addModal" class="modal hidden" role="dialog" aria-modal="true" aria-label="নতুন রক্তদাতা যোগ করুন"><div class="modalbox"><div class="modalhead"><h2 class="section-title">🩸 নতুন রক্তদাতা</h2><button class="close" id="closeModal" aria-label="বন্ধ করুন">×</button></div><p>ফর্মে গিয়ে রক্তদাতার তথ্য যোগ করুন।</p><button class="primary" id="modalGo">ফর্ম খুলুন</button></div></div>
+<div id="toast" class="toast hidden" role="status"></div>
+<script>
+const KEY='amra_amrai_donors_v1';
+const seed=[
+ {id:'sample1',name:'নমুনা রক্তদাতা ১',blood:'A+',village:'কাটাখিলা',phone:'',sample:true},
+ {id:'sample2',name:'নমুনা রক্তদাতা ২',blood:'B+',village:'আলামপুর',phone:'',sample:true}
+];
+let donors=[];
+try{donors=JSON.parse(localStorage.getItem(KEY)||'[]');if(!Array.isArray(donors))donors=[]}catch(e){donors=[]}
+const $=id=>document.getElementById(id);
+function save(){localStorage.setItem(KEY,JSON.stringify(donors))}
+function toast(msg){$('toast').textContent=msg;$('toast').classList.remove('hidden');setTimeout(()=>$('toast').classList.add('hidden'),2600)}
+function normPhone(s){return String(s||'').replace(/[^\d+]/g,'')}
+function render(){
+ const q=$('search').value.trim().toLocaleLowerCase(),b=$('bloodFilter').value,v=$('villageFilter').value;
+ const filtered=donors.filter(d=>(!q||(d.name||'').toLocaleLowerCase().includes(q)||(d.phone||'').includes(q))&&(!b||d.blood===b)&&(!v||d.village===v));
+ $('totalCount').textContent=donors.length;$('groupCount').textContent=new Set(donors.map(d=>d.blood).filter(Boolean)).size;$('shownCount').textContent=filtered.length+' জন';
+ const cards=$('donorCards');cards.innerHTML='';
+ if(!filtered.length){cards.innerHTML='<div class="empty"><div style="font-size:34px">🩸</div><b>কোনো রক্তদাতা পাওয়া যায়নি</b><p>ফিল্টার বদলান অথবা নতুন রক্তদাতা যোগ করুন।</p></div>';return}
+ filtered.forEach(d=>{
+  const card=document.createElement('article');card.className='donor';
+  const av=document.createElement('div');av.className='avatar';av.textContent=(d.name||'?').trim().slice(0,1);
+  const det=document.createElement('div');det.className='details';
+  const nm=document.createElement('div');nm.className='name';nm.textContent=d.name;
+  const meta=document.createElement('div');meta.className='meta';meta.textContent='📍 '+d.village;
+  const badges=document.createElement('div');badges.className='badges';
+  const blood=document.createElement('span');blood.className='blood';blood.textContent='🩸 '+d.blood;badges.appendChild(blood);
+  const vil=document.createElement('span');vil.className='village';vil.textContent='📍 '+d.village;badges.appendChild(vil);
+  det.append(nm,meta,badges);
+  const actions=document.createElement('div');actions.className='actions';
+  if(d.phone){const a=document.createElement('a');a.className='call';a.href='tel:'+normPhone(d.phone);a.textContent='📞 কল';actions.appendChild(a)}else{const no=document.createElement('span');no.className='tiny';no.textContent='নম্বর যোগ হয়নি';actions.appendChild(no)}
+  card.append(av,det,actions);cards.appendChild(card);
+ });
+}
+function show(view){const list=view==='list';$('listView').classList.toggle('hidden',!list);$('addView').classList.toggle('hidden',list);$('showList').classList.toggle('active',list);$('showAdd').classList.toggle('active',!list);if(!list)setTimeout(()=>$('donorName').focus(),50);else render();window.scrollTo({top:0,behavior:'smooth'})}
+$('showList').addEventListener('click',()=>show('list'));$('showAdd').addEventListener('click',()=>show('add'));
+['search','bloodFilter','villageFilter'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',render));
+$('donorForm').addEventListener('submit',e=>{
+ e.preventDefault();const name=$('donorName').value.trim(),blood=$('donorBlood').value,village=$('donorVillage').value,phone=normPhone($('donorPhone').value);
+ if(!name||!blood||!village||!phone){toast('সব তথ্য পূরণ করুন।');return}
+ if(!/^(\+?88)?01[3-9]\d{8}$/.test(phone)){toast('বাংলাদেশের সঠিক ১১ সংখ্যার মোবাইল নম্বর দিন।');return}
+ if(donors.some(d=>normPhone(d.phone)===phone)){if(!confirm('এই নম্বরটি তালিকায় আছে। তবুও নতুন এন্ট্রি যোগ করবেন?'))return}
+ donors.unshift({id:Date.now().toString(36)+Math.random().toString(36).slice(2,7),name,blood,village,phone,createdAt:new Date().toISOString()});
+ try{save()}catch(err){toast('সংরক্ষণ করা যায়নি। ব্রাউজারের স্টোরেজ পরীক্ষা করুন।');return}
+ $('donorForm').reset();show('list');toast('রক্তদাতা সফলভাবে এই ডিভাইসে যোগ হয়েছে।');
+});
+$('closeModal').addEventListener('click',()=>$('addModal').classList.add('hidden'));$('modalGo').addEventListener('click',()=>{$('addModal').classList.add('hidden');show('add')});
+render();
+</script>
+</body>
+                                                                                                                                                                                                </html>
